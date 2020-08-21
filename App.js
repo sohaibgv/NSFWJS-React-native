@@ -1,9 +1,5 @@
 import React, { Fragment } from 'react';
-import {
-  Text,
-  Image,
-
-} from 'react-native';
+import { Text, Image } from 'react-native';
 import * as tf from '@tensorflow/tfjs';
 import { fetch } from '@tensorflow/tfjs-react-native';
 import * as jpeg from 'jpeg-js';

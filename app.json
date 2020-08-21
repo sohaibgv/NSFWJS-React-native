@@ -17,10 +17,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.examplensfwjs.nl"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "android": {
+      "package": "com.examplensfwjs.nl"
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js"
   }
 }
